@@ -18,7 +18,7 @@ export default function PopupWindow(props: PopupWindowProps) {
     return (
         <>
             {props.show &&
-                <div id={"popup-wrapper"} className="fixed h-full w-screen md:w-svh flex justify-center items-center top-0 left-0" onClick={onWrapperClick}>
+                <div id={"popup-wrapper"} className="fixed h-full w-screen flex justify-center items-center top-0 left-0" onClick={onWrapperClick}>
                     <div id={"popup-content"} className="h-auto z-10 border-b-2 border-b-black border-r-2 border-r-black border-t-2 border-t-white border-l-2 border-l-white w-full mx-2">
                         <div className="font-W95FA bg-[#000080] text-white px-1 flex w-full justify-between items-center">
                             {props.title}
