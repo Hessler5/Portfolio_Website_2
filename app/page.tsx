@@ -7,13 +7,15 @@ import Sewing from "@/components/sections/sewing";
 import Directory from "@/components/sections/directory";
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center px-4 gap-4 my-4">
-      <Directory/>
-      <About />
-      <Skills />
-      <Work />
-      <Projects />
-      <Sewing />
+    <div className="flex flex-col flex-1 items-center justify-center px-4 gap-4 my-4 w-full">
+      <div className="max-w-4xl">
+        <Directory/>
+        <About />
+        <Skills />
+        <Work />
+        <Projects />
+        <Sewing />
+      </div>
     </div>
   );
 }

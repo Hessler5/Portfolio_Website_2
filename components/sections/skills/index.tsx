@@ -10,15 +10,15 @@ const SKILLS: Array<SkillType> = [
         subSkills: [
             {
                 name: "TypeScript",
-                description: "TypeScript is the primary language I use on personal and professional projects. Since it’s the native language of Next.js I use it when building front ends for websites. I have also used typescript to build back ends and web APIs and found it helpful to reduce context switching on fullstack projects. I really like the type safety that comes from the static types and how the code is self documenting."
+                description: "TypeScript is the primary language I use on personal and professional projects. Since it’s  the native language of Next.js I use it when building front and back ends for websites. I have also used TypeScript to build web apis and found it helpful to reduce context switching on fullstack projects. I really like the type safety that comes from the static types and how the code is self documenting."
             },
             {
                 name: "Javascript",
-                description: "Although I prefer Typescript for development due to its type safety I am also proficient in vanilla JavaScript. I used it extensively during my bootcamp and even built a website in vanilla JavaScript with no framework, just “document.getElementBy*."
+                description: "Although I prefer TypeScript for development due to its type safety I am also proficient in vanilla JavaScript. I used it extensively during my bootcamp and even built a website in vanilla JavaScript with no framework, just “document.getElementById”."
             },
             {
                 name: "SQL",
-                description: "I have a lot of experience in relation databases and communication to those databases through SQL. On projects I do prefer to use ORMs like Prisma to interface with the database but I still have experience running scripts, getting ad hoc data requests, and executing large db actions with SQL."
+                description: "I have a lot of experience with relational databases and communicating to those databases through SQL. When working on projects I do prefer to use ORMs like Prisma to interface with the database but I still have experience running scripts, getting ad hoc data requests, and executing large db actions with SQL."
             },
             {
                 name: "Python",
@@ -31,11 +31,11 @@ const SKILLS: Array<SkillType> = [
         subSkills: [
             {
                 name: "Next.js",
-                description: "Professionally I have worked on a production website built in Next.js. I have familiarity with all major Next.js features such as server actions, file-system routing, server vs client components etc.. I also have familiarity with some of the tradeoffs of Next like a slower developer experience. This website is also built in Next."
+                description: "Professionally I have worked on a production website built in Next.js. I have familiarity with all major Next.js features such as server actions, file-system routing, server vs client components etc. I also have familiarity with some of the tradeoffs of Next like a slower developer experience. This website is also built in Next."
             },
             {
                 name: "React",
-                description: "React was the focus of my bootcamps curriculum so I have lots of experience building websites in React. I even built several websites in vanilla react using libraries like React Router to bridge the gap between React and a web framework. I also am proficient in frameworks built on top of react like Next.js."
+                description: "React was the focus of my bootcamps curriculum so I have lots of experience building websites in React. I even built several websites in vanilla react using libraries like React Router to bridge the gap between React and a web framework. I am also proficient in frameworks built on top of react like Next.js."
             },
             {
                 name: "Prisma",
@@ -43,11 +43,11 @@ const SKILLS: Array<SkillType> = [
             },
             {
                 name: "Apollo",
-                description: "I have built a production deployed Apollo GraphQL api. This api was type safe using Pothos and Codegen. It could support multiple authentication types and was used across several external and internal services."
+                description: "I have built a production deployed Apollo GraphQL api. This api is type safe using Pothos and Codegen to generate types. It supports multiple authentication types and is used across several external and internal services."
             },
             {
-                name: "Tanstack",
-                description: "TanStack is my favorite way to control data fetching client side. Professionally I have built a production deployed custom React hook to wrap and standardize Tanstack operations across a codebase. I have also built caching and cache invalidation architecture so that all developers perform these actions in a standardized way."
+                name: "TanStack",
+                description: "TanStack is my favorite way to control data fetching client side. Professionally I have built a production deployed custom React hook to wrap and standardize TanStack operations across a codebase. I have also built caching and cache invalidation global functions so that all developers perform these actions in a standardized way."
             },
         ]
     },
@@ -56,7 +56,7 @@ const SKILLS: Array<SkillType> = [
         subSkills: [
             {
                 name: "AWS",
-                description: "I have experience in AWS deploying architecture and trouble shooting issues. I have used many AWS services such as CloudWatch, Secrets Manager, S3, CloudFormation, and ECS."
+                description: "I have experience in AWS deploying architecture and trouble shooting issues. I have used many AWS services including CloudWatch, Secrets Manager, S3, CloudFormation, and ECS."
             },
             {
                 name: "Fastly",
@@ -64,7 +64,7 @@ const SKILLS: Array<SkillType> = [
             },
             {
                 name: "Sentry",
-                description: "Sentry.io is the error monitoring system I have used in production environments. I have familiarity setting up sentry alerts in the code as well as trouble shooting alerts via the Sentry web interface."
+                description: "Sentry.io is the error monitoring system I have used in production environments. I have familiarity setting up sentry alerts in code as well as trouble shooting alerts via the Sentry web interface."
             },
             {
                 name: "GitHub",
@@ -80,7 +80,7 @@ const SKILLS: Array<SkillType> = [
             },
             {
                 name: "Figma",
-                description: "I have used figma to create and comment on design mocks and proposals. I have also used Figma’s ai tools to assist in the design process."
+                description: "I have used figma to create and comment on design mocks and proposals. I have also used Figma’s AI tools to assist in the design process."
             },
             {
                 name: "Airtable",
@@ -101,7 +101,7 @@ const SKILLS: Array<SkillType> = [
             },
             {
                 name: "Claude",
-                description: "I have used the Claude Code harness to responsibly develop and prototype ideas with ai."
+                description: "I have used the Claude Code harness to responsibly develop and prototype ideas with AI."
             },
         ]
     },
